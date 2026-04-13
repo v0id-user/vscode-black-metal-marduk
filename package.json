@@ -1,0 +1,47 @@
+{
+  "name": "black-metal-marduk",
+  "displayName": "Black Metal (Marduk)",
+  "description": "A desaturated monochrome color theme for VS Code and Cursor, inspired by the cold, washed-out aesthetic of black metal album art.",
+  "version": "0.0.1",
+  "publisher": "v0id-user",
+  "license": "MIT",
+  "author": {
+    "name": "Fahad (#V0ID)",
+    "url": "https://github.com/v0id-user"
+  },
+  "homepage": "https://github.com/v0id-user/vscode-black-metal-marduk#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v0id-user/vscode-black-metal-marduk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/v0id-user/vscode-black-metal-marduk/issues"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "monochrome",
+    "minimal",
+    "black-metal",
+    "grayscale",
+    "desaturated"
+  ],
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Black Metal (Marduk)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-metal-marduk-color-theme.json"
+      }
+    ]
+  }
+}
