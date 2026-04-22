@@ -1,8 +1,14 @@
 # Black Metal (Marduk)
 
+[![Marketplace](https://img.shields.io/visual-studio-marketplace/v/v0id-user.black-metal-marduk?color=c1c1c1&label=marketplace&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=v0id-user.black-metal-marduk)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/v0id-user.black-metal-marduk?color=5f8787&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=v0id-user.black-metal-marduk)
+[![License](https://img.shields.io/github/license/v0id-user/vscode-black-metal-marduk?color=626b67&style=flat-square)](LICENSE)
+
 A desaturated monochrome color theme for **VS Code** and **Cursor**, inspired by the cold, washed-out aesthetic of black metal album art.
 
 Pure black background. Muted grays. A single faded teal for strings. No noise, no neon, no distractions — just code on stone.
+
+![Go showcase](screenshots/go-showcase.png)
 
 ## Palette
 
@@ -32,11 +38,27 @@ Pure black background. Muted grays. A single faded teal for strings. No noise, n
 
 Terminal ANSI colors match the palette exactly, so your shell stays consistent with your editor.
 
+## More screenshots
+
+![TypeScript](screenshots/ts-showcase.png)
+
+![Python](screenshots/py-showcase.png)
+
 ## Install
 
 ### From the VS Code Marketplace
 
-> Coming soon. For now, install from a release or build locally.
+Search **"Black Metal Marduk"** in the Extensions panel, or install from the CLI:
+
+```bash
+# VS Code
+code --install-extension v0id-user.black-metal-marduk
+
+# Cursor
+cursor --install-extension v0id-user.black-metal-marduk
+```
+
+Or open it directly: [marketplace.visualstudio.com/items?itemName=v0id-user.black-metal-marduk](https://marketplace.visualstudio.com/items?itemName=v0id-user.black-metal-marduk)
 
 ### From a release `.vsix`
 
@@ -45,10 +67,10 @@ Terminal ANSI colors match the palette exactly, so your shell stays consistent w
 
    ```bash
    # VS Code
-   code --install-extension black-metal-marduk-0.0.1.vsix
+   code --install-extension black-metal-marduk-0.0.2.vsix
 
    # Cursor
-   cursor --install-extension black-metal-marduk-0.0.1.vsix
+   cursor --install-extension black-metal-marduk-0.0.2.vsix
    ```
 
 ### Build from source
