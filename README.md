@@ -67,10 +67,10 @@ Or open it directly: [marketplace.visualstudio.com/items?itemName=v0id-user.blac
 
    ```bash
    # VS Code
-   code --install-extension black-metal-marduk-0.0.2.vsix
+   code --install-extension black-metal-marduk-0.0.3.vsix
 
    # Cursor
-   cursor --install-extension black-metal-marduk-0.0.2.vsix
+   cursor --install-extension black-metal-marduk-0.0.3.vsix
    ```
 
 ### Build from source
